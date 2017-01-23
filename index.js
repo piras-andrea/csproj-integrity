@@ -138,6 +138,7 @@ var checksolution = {
             })
             .catch(function(err) {
                 log(chalk.white.bgRed.bold(err));
+                return err;
             });
 
     },
@@ -160,6 +161,7 @@ var checksolution = {
             })
             .catch(function(err) {
                 log(chalk.white.bgRed.bold(err));
+                return err;
             });
 
     }
